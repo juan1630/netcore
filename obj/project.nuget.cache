@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "h/uYKNmiiVxOYdKhvMwwyJ0OxfByYNNd21KET6pb9/xvo4i8puIFLM/NSZA4w6LEEm4LsN1mQTui1J9SFwfYTA==",
+  "success": true,
+  "projectFilePath": "D:\\Proyectos\\netCore\\holaMundo\\holaMundo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josej\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

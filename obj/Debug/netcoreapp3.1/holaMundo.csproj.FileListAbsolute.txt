@@ -1,0 +1,15 @@
+D:\Proyectos\netCore\holaMundo\bin\Debug\netcoreapp3.1\holaMundo.exe
+D:\Proyectos\netCore\holaMundo\bin\Debug\netcoreapp3.1\holaMundo.deps.json
+D:\Proyectos\netCore\holaMundo\bin\Debug\netcoreapp3.1\holaMundo.runtimeconfig.json
+D:\Proyectos\netCore\holaMundo\bin\Debug\netcoreapp3.1\holaMundo.runtimeconfig.dev.json
+D:\Proyectos\netCore\holaMundo\bin\Debug\netcoreapp3.1\holaMundo.dll
+D:\Proyectos\netCore\holaMundo\bin\Debug\netcoreapp3.1\holaMundo.pdb
+D:\Proyectos\netCore\holaMundo\obj\Debug\netcoreapp3.1\holaMundo.csprojAssemblyReference.cache
+D:\Proyectos\netCore\holaMundo\obj\Debug\netcoreapp3.1\holaMundo.AssemblyInfoInputs.cache
+D:\Proyectos\netCore\holaMundo\obj\Debug\netcoreapp3.1\holaMundo.AssemblyInfo.cs
+D:\Proyectos\netCore\holaMundo\obj\Debug\netcoreapp3.1\holaMundo.csproj.CoreCompileInputs.cache
+D:\Proyectos\netCore\holaMundo\obj\Debug\netcoreapp3.1\holaMundo.dll
+D:\Proyectos\netCore\holaMundo\obj\Debug\netcoreapp3.1\holaMundo.pdb
+D:\Proyectos\netCore\holaMundo\obj\Debug\netcoreapp3.1\holaMundo.genruntimeconfig.cache
+D:\Proyectos\netCore\holaMundo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Proyectos\netCore\holaMundo\obj\Debug\netcoreapp3.1\holaMundo.csproj.CopyComplete
