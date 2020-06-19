@@ -147,6 +147,31 @@ namespace holaMundo
             
 
 
+        // OPERADORASIGNACION
+
+        // int edadPersona1;
+        // int edadPersona2;
+        // int edadPersona3;
+        // int edadPersona4;
+
+
+        // edadPersona1=edadPersona2=edadPersona3=edadPersona4=27;
+
+        // Console.WriteLine( edadPersona2 );
+
+
+// declaracion implicita de las variables
+// se asigna el valor a las variable como en js
+
+
+    var edadPerson = 24;
+
+
+    Console.WriteLine( edadPerson );
+
+
+    // en c# no se pude reasignar este tipo de dato
+
         }
     }
 }
