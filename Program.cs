@@ -172,7 +172,61 @@ namespace holaMundo
 
     // en c# no se pude reasignar este tipo de dato
 
-        }
+    var persona = "Juan";
+
+
+    Console.WriteLine( persona );
+
+        persona = "Carlos";
+
+
+            Console.WriteLine( persona );
+    
+    double temperatura = 34.5;
+    int temperaturaCuatla;
+
+        // Haremos un casting de los valores
+        // conveersion explicita 
+
+            temperaturaCuatla =(int) temperatura;
+
+            Console.WriteLine(  temperatura);
+
+
+        //  Conserviosn implicita 
+        
+        int habitantes = 10000000; 
+        long habitantesCiudad2020 = habitantes;
+
+        Console.WriteLine( habitantesCiudad2020 );
+
+        float pesoMaterial = 5.78F;
+        // siempre debe de llevar la F en caso de que sea de tipo float
+
+        double pesoMaterialPre = pesoMaterial;
+
+
+        Console.WriteLine( pesoMaterialPre );
+
+
+        Console.WriteLine("Ingresa el primer numero");
+        // se genera la instruccion para que el usuario ingrese los numeros
+        
+        string num1 = Console.ReadLine();
+
+        int nume1Parse = int.Parse(num1);
+
+
+        Console.WriteLine("Ingresa el segundo numero");
+        int num2 = int.Parse( Console.ReadLine() );
+
+        int resultado = nume1Parse + num2;
+
+        Console.WriteLine(resultado);
+
+    }
+
+    
     }
 }
  
