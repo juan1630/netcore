@@ -213,16 +213,44 @@ namespace holaMundo
         // se genera la instruccion para que el usuario ingrese los numeros
         
         string num1 = Console.ReadLine();
+        // le ingresa el primer numero por consola
 
         int nume1Parse = int.Parse(num1);
+        // convertimos el valor que el usuario haya ingresado
 
 
         Console.WriteLine("Ingresa el segundo numero");
         int num2 = int.Parse( Console.ReadLine() );
+        // convertimos el valor que el usuario haya ingresado de string a int
+        // le ingresa el segundo numero por consola, por medio del metodo readLine
 
-        int resultado = nume1Parse + num2;
+        int resultado = nume1Parse + num2;  
 
         Console.WriteLine(resultado);
+
+
+        // constantes 
+
+        // las constantes se  deben de declarar desde el principio
+        // const int VALOR = 20;
+
+        // const int VALOR2 = 15;
+
+        // Console.WriteLine( VALOR );
+
+        // Console.WriteLine("El valor de la constante es: {0}" , VALOR2, VALOR);
+
+
+        // const double PI = 3.1416;
+
+        // System.Console.WriteLine("Ingresa el area de un circulo");
+        // double radio =    double.Parse( Console.ReadLine());
+
+        // double res = radio * radio * PI;
+
+        // double res = Math.Pow( radio, 2 ) * PI;
+
+        // System.Console.WriteLine( $"El area es :  {res}" );
 
     }
 
