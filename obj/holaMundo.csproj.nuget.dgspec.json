@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\netCore\\holaMundo\\holaMundo.csproj": {}
+    "C:\\Proyectos\\dotnet\\netcore\\holaMundo.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\netCore\\holaMundo\\holaMundo.csproj": {
+    "C:\\Proyectos\\dotnet\\netcore\\holaMundo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\netCore\\holaMundo\\holaMundo.csproj",
+        "projectUniqueName": "C:\\Proyectos\\dotnet\\netcore\\holaMundo.csproj",
         "projectName": "holaMundo",
-        "projectPath": "D:\\Proyectos\\netCore\\holaMundo\\holaMundo.csproj",
-        "packagesPath": "C:\\Users\\josej\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\netCore\\holaMundo\\obj\\",
+        "projectPath": "C:\\Proyectos\\dotnet\\netcore\\holaMundo.csproj",
+        "packagesPath": "C:\\Users\\Juan Patrón\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\dotnet\\netcore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\josej\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Juan Patrón\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

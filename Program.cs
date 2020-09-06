@@ -146,7 +146,7 @@ namespace holaMundo
             Console.WriteLine( $"Tienes una edad de: {edadDos} años" );
             
 
-
+        
         // OPERADORASIGNACION
 
         // int edadPersona1;
@@ -168,6 +168,8 @@ namespace holaMundo
 
 
     Console.WriteLine( edadPerson );
+
+    mensajeEnPantalla();
 
 
     // en c# no se pude reasignar este tipo de dato
@@ -227,7 +229,9 @@ namespace holaMundo
         int resultado = nume1Parse + num2;  
 
         Console.WriteLine(resultado);
-
+        sumaDeDosNumeros(20,30);
+        int res = suma(20,100);
+        System.Console.WriteLine(res);
 
         // constantes 
 
@@ -252,6 +256,31 @@ namespace holaMundo
 
         // System.Console.WriteLine( $"El area es :  {res}" );
 
+
+
+        // Los metodos son un conjunto de instrucciones agrupadas dentro de un nombre
+        // los metodos nos ayudan a ahorrar lineas de codigo y solo se ejecutan cuando se
+        // les llama
+
+    }
+
+
+    static void mensajeEnPantalla() {
+        // creando nuestro pimer metodo
+
+        System.Console.WriteLine("mensaje desde el metodo");
+    }
+
+
+    static void sumaDeDosNumeros(int num1, int num2){
+
+        // int resultado = num1 + num2;
+        System.Console.WriteLine("Resultado" +  (num1+ num2)  );
+    }
+
+    // las funciones con void no devuelven nigun valor
+    static int suma(int n1, int n2){
+        return  n1+ n2;
     }
 
     
