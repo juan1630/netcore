@@ -11,8 +11,14 @@ namespace holaMundo
     // solo usan letras, numero y guiones bajos
     // deben de iniciar con letras y no con numeros
     {
-        static void Main(string[] args) {
 
+        // se inicializan las variables como ambito de la clase y no de la funcion
+
+            int numero = 5;
+            int numero2 = 7;
+        static void Main(string[] args) {
+            // esta clase principal no retorna ningun valor en la llamada
+            // siempre se ejecuta con el metdo main
 
             string API_URL =  "http://jsonplaceholder.typicode.com/posts?_limit=5";
 
@@ -229,10 +235,12 @@ namespace holaMundo
         int resultado = nume1Parse + num2;  
 
         Console.WriteLine(resultado);
-        sumaDeDosNumeros(20,30);
-        int res = suma(20,100);
-        System.Console.WriteLine(res);
+        //sumaDeDosNumeros(20,30);
+       // int res = suma(20,100);
+       // System.Console.WriteLine(res);
 
+                // para que haya sobrecarga de metodos se necesita diferente numero de paramteros
+                // y que sean de diferente  tipo
         // constantes 
 
         // las constantes se  deben de declarar desde el principio
@@ -257,7 +265,7 @@ namespace holaMundo
         // System.Console.WriteLine( $"El area es :  {res}" );
 
 
-
+         //   Console.WriteLine( Suma( 25, 25.0)  );
         // Los metodos son un conjunto de instrucciones agrupadas dentro de un nombre
         // los metodos nos ayudan a ahorrar lineas de codigo y solo se ejecutan cuando se
         // les llama
@@ -272,18 +280,43 @@ namespace holaMundo
     }
 
 
-    static void sumaDeDosNumeros(int num1, int num2){
+    // static void sumaDeDosNumeros(int num1, int num2){
 
         // int resultado = num1 + num2;
-        System.Console.WriteLine("Resultado" +  (num1+ num2)  );
-    }
+    //    System.Console.WriteLine("Resultado" +  (num1+ num2)  );
+    // }
 
     // las funciones con void no devuelven nigun valor
-    static int suma(int n1, int n2){
-        return  n1+ n2;
+  //  static int suma(int n1, int n2){
+    //    return  n1+ n2;
+    // }
+    void primerMetodo (){
+        // esta ambito es local
+
+
+        System.Console.WriteLine(numero + numero2); 
+
+    }
+
+
+    void segundoMetodo() {
+
+//contexto, ambito o alcance es sinonimo del scope
+
+        Console.WriteLine(this.numero + this.numero2);
+       
+
+            // sobre cargar de metodos
+            // es un exceso en la llamda de los metodos
     }
 
     
     }
+
+    
+            //static int Suma(int operador1,int operador2) => operador1 + operador2;
+
+            //static int Suma (int numero1, double numero2) => numero1 + numero2;
+           // static int Suma (int numero1, int numero2) => numero1 + numero2;
 }
  
